@@ -49,7 +49,7 @@ func (e EncryptedString) Value() (driver.Value, error) {
 	}
 	val, err := e.Encrypt()
 	if err != nil {
-		return []byte{}, errors.New("Value Encrypt: " + err.Error())
+		return []byte{}, err
 	}
 	return val, nil
 }
