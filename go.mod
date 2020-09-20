@@ -1,3 +1,3 @@
-module github.com/RayfenWindspear/encryptedstring v1.0.0
+module github.com/RayfenWindspear/encryptedstring
 
 go 1.12
